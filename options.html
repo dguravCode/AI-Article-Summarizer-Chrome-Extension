@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Options</title>
+    <link rel="stylesheet" href="option.css">
+</head>
+
+<body>
+    <h1>AI Summary Settings</h1>
+
+    <div class="form-groups">
+        <label for="api-key">Gemini-Api_Key</label>
+        <input type="text" id="api-key" placeholder="Enter your Gemini API Key">
+
+        <p>
+            <small>You can find your API key from</small>
+            <a href="https://aistudio.google.com/app/apikey" target="_blank">Google AI Studio</a>
+        </p>
+    </div>
+
+    <button class="save-btn">Save Settings</button>
+
+    <p id="success-message" class="success-message">Settings saved successfully!</p>
+    
+    <script src="./options.js"></script>
+</body>
+
+</html>

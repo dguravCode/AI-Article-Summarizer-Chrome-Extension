@@ -1,0 +1,91 @@
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      background: #f5f7fa;
+      color: #1a1a1a;
+      padding: 24px;
+      min-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #0e0e0f;
+    }
+
+    /* Controls wrapper */
+    .controls {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    select, button {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      font-size: 14px;
+      transition: all .2s;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #2563eb;
+    }
+
+    button {
+      cursor: pointer;
+      background: #09a314;
+      color: #fff;
+      border: none;
+    }
+
+    button:hover {
+      background: #1a671f;
+      opacity: 1.8;
+    }
+
+    button:active {
+      transform: scale(.96);
+    }
+
+    /* Result area */
+    #result {
+      width: 100%;
+      min-height: 120px;
+      padding: 12px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      font-size: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* ===== Loader ===== */
+    .loader {
+      display: none;          /* controlled by JS */
+      width: 24px;
+      height: 24px;
+      margin: 12px auto;
+      border: 3px solid #e2e8f0;
+      border-top-color: #2563eb;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
