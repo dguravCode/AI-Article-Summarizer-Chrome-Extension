@@ -14,13 +14,16 @@ A Chrome extension that uses Google's Gemini API to generate concise summaries o
 ## Project Structure
 
 ```
-├── manifest.json        # Extension configuration
-├── popup.html          # Extension popup interface
+├── manifest.json      # Extension configuration
+├── popup.html         # Extension popup interface
 ├── popup.js           # Popup interaction logic
 ├── popup.css          # Popup styling
 ├── content.js         # Content script for article extraction
 ├── background.js      # Background service worker
-└── icon2.png          # Extension icon
+├── icon2.png          # Extension icon
+├── options.html       # Extension options page
+├── options.js         # Extension options page
+└── options.css        # Extension options page
 ```
 
 ## Technical Implementation
