@@ -52,3 +52,7 @@ A Chrome extension that uses Google's Gemini API to generate concise summaries o
 
 - Google Chrome browser
 - Gemini API key for summarization functionality
+
+## Screenshort
+<img width="582" height="435" alt="image" src="https://github.com/user-attachments/assets/062486e0-e8da-494f-a92c-83f3eedc3726" />
+
